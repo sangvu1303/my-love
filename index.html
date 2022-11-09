@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Love</title>
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="shortcut icon" href="/assets/icon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="grid"></div> <!-- nền ngoài -->
+
+    <div class="warning"></div> <!-- nền cảnh báo -->
+
+    <div class="base"> <!--nút ấn -->
+        <button id="activate">
+        </button>
+    </div>
+
+    <div class="box opened" id="cover"> <!--hộp đậy 6 mảnh -->
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <span></span><span></span> <!--2 cái bấm bản lề bên trên nền box, thêm cho vui mắt -->
+    </div>
+    <!-- bản lề zoom to mới thấy :)))  -->
+    <div class="hinges"></div> <!--2 cái bấm bản lề bên dưới nền base -->
+
+    <div class="text"> <!-- thêm cho vui -->
+        SELF - &thinsp;DESTRUCT
+    </div>
+    
+    <!-- thông báo -->
+    <div id="panel">
+        <div id="msg">ANSWER NOW</div>
+        <div id="time">9</div>
+        <span id="abort"><a href="/assets/page2.html">YES</a></span>
+        <span id="no">NO</span>
+        <span id="detonate">You Died</span>
+    </div>
+
+    <div id="panel2"> 
+        <div id="msg">YOUR ANSWER IS FALSE</div>
+        <span id="again">AGAIN PLEASE</span>
+    </div>
+
+    <div id="turn-off"></div> <!-- tắt bảng thông báo -->
+    <div id="closing"></div> <!-- hiệu ứng làm đen màn hình -->
+
+    <!-- nút chạy lại  -->
+    <div id="restart"><button id="reload"></button></div>
+
+    <!-- tắt chuông cảnh báo -->
+    <div id="mute"></div>
+    
+    <!-- chuông cảnh báo,thay bằng cái nào thì tùy  -->
+    <audio id="alarm">
+        <source src="http://nhacchuongvui.com/wp-content/uploads/Tieng-coi-canh-bao-www_nhacchuongvui_com.mp3?_=1" type="audio/mpeg">
+    </audio>
+    
+    <script src="/assets/main.js"></script>
+
+</body>
+</html>
